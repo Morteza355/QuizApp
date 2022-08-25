@@ -1,4 +1,4 @@
-# QuizApp
+# Quiz Of Dragons
 a Multiple Choise Quiz App Writes By HTML,CSS,JS
 
 ## Todos
