@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="questions,quiz app,quiz website,quiz webpage,multiple choise quiz app,mutiple choise">
+    <meta name="description" content="a Multiple Choise Quiz App With Best Categories">
+    <meta name=”robots” content="noindex, follow" />
+    <link rel=”canonical” href="index.html" />
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Multiple Choise Quiz App | Quiz of Dragons</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="preloader-container">
+            <div class="preloader"></div>
+        </div>
+        <header>
+            <div class="theme-changer">
+                <input type="checkbox" id="theme-input">
+                <label for="theme-input">
+                    <span class="toggle"></span>
+                </label>
+            </div>
+        </header>
+        <main>
+            <section class="loader">
+                <div class="loader-container">
+                    <h2>Quiz of Dragons</h2>
+                    <div class="categories">
+                        <p>Please Select a Category !</p>
+                        <div class="category">
+                            <span data-id="21">Sports</span>
+                        </div>
+                        <div class="category">
+                            <span data-id="9">General Knowledge</span>
+                        </div>
+                        <div class="category">
+                            <span data-id="23">History</span>
+                        </div>
+                        <div class="category">
+                            <span data-id="25">Art</span>
+                        </div>
+                        <div class="category">
+                            <span data-id="15">Video Games</span>
+                        </div>
+                        <div class="category">
+                            <span data-id="19">Mathematics</span>
+                        </div>
+                        <div class="category">
+                            <span data-id="11">Film</span>
+                        </div>
+                    </div>
+                    <div class="levels">
+                        <div class="level-title-container">
+                            <span class="fa fa-arrow-circle-o-left back-btn"></span>
+                            <p>Please Select a Difficulty !</p>
+                        </div>
+
+                        <div class="level">
+                            <span>Easy</span>
+                        </div>
+                        <div class="level">
+                            <span>Medium</span>
+                        </div>
+                        <div class="level">
+                            <span>Hard</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main">
+                <div class="ques-section">
+                    <h2>Quiz of Dragons</h2>
+
+                    <p>Question <span class="step">1</span> of 5</p>
+                    <p class="ques-title"></p>
+                </div>
+                <div class="option-container">
+                    <div class="countdown">
+                        <div class="countdown-slider"></div>
+                    </div>
+                    <div class="opt-section">
+                        <div class="opt"></div>
+                        <div class="opt"></div>
+                        <div class="opt"></div>
+                        <div class="opt"> </div>
+                    </div>
+                </div>
+
+                <!-- <div class="hint-section">
+            <div class="hint">
+                <p>Remove Two Options</p>
+            </div>
+            <div class="hint">
+                <p>Remove One</p>
+            </div>
+        </div> -->
+            </section>
+            <section class="result-container">
+                <div class="result">
+                    <h2>Quiz of Dragons</h2>
+                    <p> You answered : <span class="truthy"></span>
+                    </p>
+                    <p>All answers : 5</p>
+                    <button class="tryagain">Try Again</button>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="./assets/scripts/script.js"></script>
+</body>
+
+</html>
