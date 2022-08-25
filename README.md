@@ -1,5 +1,5 @@
 # Quiz Of Dragons
-a Multiple Choise Quiz App Writes By HTML,CSS,JS
+a Multiple Choice Quiz App Writes By HTML,CSS,JS
 
 ## Todos
 - Hints Section
